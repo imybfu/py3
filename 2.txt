@@ -1,0 +1,534 @@
+1
+\hat{H} \vert \psi(t) \rangle = i \hbar \frac{\partial}{\partial t} \vert \psi(t) \rangle,
+2
+\vert \psi(t) \rangle = e^{-i \hat{H} t / \hbar} \vert \psi(0) \rangle.
+3
+E(t) = \int_{-\infty}^{t} V(t')I(t')dt',
+4
+\Phi(t) = \int_{-\infty}^{t} V(t')dt'.
+5
+\mathcal{T}_C = \frac{1}{2}C\dot{\Phi}^2,
+6
+\mathcal{U}_L = \frac{1}{2L}\Phi^2.
+7
+\mathcal{L} = \mathcal{T}_{C} - \mathcal{U}_L = \frac{1}{2}C\dot{\Phi}^2 - \frac{1}{2L}\Phi^2.
+8
+Q = \frac{\partial \mathcal{L}}{\partial \dot{\Phi}} = C\dot{\Phi}.
+9
+H = Q\dot{\Phi} - \mathcal{L} = \frac{Q^2}{2C} + \frac{\Phi^2}{2L} \equiv
+    \frac{1}{2} C V^2 + \frac{1}{2} L I^2,
+10
+\{f,g\}
+    &= \frac{\delta f}{\delta \Phi} \frac{\delta g}{\delta Q} - \frac{\delta g}{\delta \Phi} \frac{\delta f}{\delta Q} \\
+ \rightarrow \{\Phi,Q\}  &= \frac{\delta \Phi}{\delta \Phi} \frac{\delta Q}{\delta Q} - \frac{\delta Q}{\delta \Phi} \frac{\delta \Phi}{\delta Q} = 1-0 = 1,
+11
+[\hat{\Phi},\hat{Q}] = \hat{\Phi}\hat{Q} - \hat{Q}\hat{\Phi} = i\hbar,
+12
+H = 4E_C n^2 + \frac{1}{2}E_L \phi^2,
+13
+H = \hbar\omega_{r}\left( a^{\dagger}a + \frac{1}{2}\right),
+14
+I = I_c \sin (\phi), \hspace{0.5cm}V = \frac{\hbar}{2e} \frac{d\phi}{dt},
+15
+H = 4E_C n^2 - E_J \cos(\phi),
+16
+E_J \cos(\phi) = \frac{1}{2}E_J \phi^2 - \frac{1}{24}E_J \phi^4 + \mathcal{O}(\phi^6).
+17
+H = \freq a^{\dagger}a + \frac{\alpha}{2}a^{\dagger}a^{\dagger}aa.
+18
+H = \freq \frac{\sigma_{z}}{2},
+19
+\varphi_1 - \varphi_2 + 2\varphi_{e} = 2\pi k,
+20
+H = 4E_C n^2 - \underbrace{2E_J \left| \cos\left(\varphi_e\right)\right|}_{E_{J}'(\varphi_e)}\cos(\phi).
+21
+H = 4E_Cn^2 - \underbrace{{E_{J\Sigma}\sqrt{\cos^2(\varphi_e) + d^2\sin^2(\varphi_e)}}}_{E'_J(\varphi_e)}\cos(\phi),
+22
+H \approx 4E_Cn^2 - E_{J}\cos(2\phi + \varphi_e) - 2\gamma E_J\cos(\phi).
+23
+H \approx 4E_Cn^2 - E_{J}\cos(\phi + \varphi_e) + \frac{1}{2}E_L \phi^2,
+24
+H = H_1 + H_2 + H_{\text{int}},
+25
+H_{\text{int}} = C_g V_1 V_2,
+26
+H = \sum_{i = 1,2} \left[ 4E_{C,i}n_{i}^2 - E_{J,i}\cos(\phi_i)\right]
+27
++ 4e^2\frac{C_g}{C_1 C_2}n_1 n_2,
+28
+H_{\text{int}} = M_{12} I_1 I_2,
+29
+    H = \sum_{i = 1,2} \left[ 4E_{C,i}n_{i}^2 - E_{J,i}\cos(\phi_i) + \frac{1}{2}\frac{\Phi_{Li}^2 }{L_i(1-K^2)}\right] 
+\\
+    - M_{12}(1-K^2) \frac{\Phi_{L1}}{L_1(1-K^2)}\frac{\Phi_{L2}}{L_2(1-K^2)},
+30
+= \sum_{i = 1,2} \left[ 4E_{C,i}n_{i}^2 - E_{J,i}\cos(\phi_i) +
+                \frac{1}{2} \frac{\left(\frac{\Phi_0}{2\pi}\right)^2 (\phi_{i} - \phi_{ei})^2 }{L_i(1-K^2)}\right]
+\\
+    - M_{12}(1-K^2) \frac{\left(\frac{\Phi_0}{2\pi}\right) (\phi_{1} - \phi_{e1})}{L_1(1-K^2)}\frac{\left(\frac{\Phi_0}{2\pi}\right)(\phi_{2} - \phi_{e2})}{L_2(1-K^2)}.
+31
+H = \sum_{i \in {1,2}} \left[ \omega_i a_{i}^{\dagger}a_{i} + \frac{\alpha_i}{2}a_{i}^{\dagger}a_{i}^{\dagger}a_{i}a_{i}\right]
+32
+- g \left(a_1 - a_{1}^{\dagger}\right)\left(a_2 - a_{2}^{\dagger}\right),
+33
+H = \sum_{i \in {1,2}} \frac{1}{2}\omega_i \sigma_{z,i} + g \sigma_{y,1}\sigma_{y,2}.
+34
+H = \frac{1}{2}\freq \sigma_{z} + \omega_{r}a^{\dagger}a + g (\sigma_{+}a + \sigma_{-}a^{\dagger}),
+35
+H = \sum_{i = 1,2} \left( \omega_i a_{i}^{\dagger}a_{i} + \frac{\alpha_i}{2}a_{i}^{\dagger}a_{i}^{\dagger}a_{i}a_{i}\right) + \omega_r a_{r}^{\dagger}a_{r}
+36
++ g_{1r} \left(a_{1}^{\dagger}a_{r} + a_{1}a_{r}^{\dagger}\right) + g_{2r} \left(a_{2}^{\dagger}a_{r} + a_{2} a_{r}^{\dagger}\right).
+37
+H = \sum_{i = 1,2} \frac{1}{2}\omega_i \sigma_{zi} + g \sigma_{z1}\sigma_{z2}.
+38
+H = \frac{1}{2}\freq \sigma_{z} + \omega_{r}a^{\dagger}a + g \sigma_{z}(a + a^{\dagger}),
+39
+    \lvert \psi \rangle = \alpha \lvert 0 \rangle + \beta \lvert 1 \rangle = \cos\frac{\theta}{2} \lvert 0 \rangle + e^{i \phi}\sin \frac{\theta}{2} \lvert 1 \rangle.
+40
+    \rho = \frac{1}{2}(I + \vec{a} \cdot \vec{\sigma})
+    &= \frac{1}{2}
+    \left(
+        \begin{matrix}
+            1+\cos \theta & e^{-i\phi} \sin \theta \\
+            e^{i\phi} \sin \theta  & 1+ \sin \theta
+        \end{matrix}
+    \right) \\
+     &= \left(
+        \begin{matrix}
+            \cos^2\frac{\theta}{2} & e^{-i\phi}\cos\frac{\theta}{2} \sin\frac{\theta}{2} \\
+            e^{i\phi}\cos\frac{\theta}{2} \sin\frac{\theta}{2}  & \sin^2\frac{\theta}{2}
+        \end{matrix}
+    \right) \\
+    &=\left(
+        \begin{matrix}
+            |\alpha|^2 & \alpha \beta^*  \\
+            \alpha^* \beta  & |\beta|^2
+        \end{matrix}
+    \right)
+41
+    &\textrm{longitudinal relaxation rate:} &\Gamma_1 &\equiv \frac{1}{T_1}  \\
+42
+    \lvert \psi \rangle = \alpha |0 \rangle + \beta |1\rangle,
+43
+    \rho_{\textrm{BR}} =
+    \left(
+        \begin{matrix}
+            1 + (|\alpha|^2-1) e^{- \Gamma_1 t} & \alpha \beta^* e^{i \delta \omega t} e^{- \Gamma_2 t} \\
+            \alpha^* \beta e^{-i \delta \omega t} e^{- \Gamma_2 t} & |\beta|^2 e^{- \Gamma_1 t}
+        \end{matrix}
+        \right).
+44
+    \Gamma_1 \equiv \frac{1}{T_1} = \Gamma_{1\downarrow} + \Gamma_{1\uparrow}.
+45
+    = \left(
+        \begin{matrix}
+            1 + (|\alpha|^2-1) e^{- \Gamma_1 t} & \alpha \beta^* e^{i \delta \omega t} e^{- \frac{\Gamma_1}{2} t} e^{- \chi_N (t)}  \\
+            \alpha^* \beta e^{-i \delta \omega t} e^{- \frac{\Gamma_1}{2} t} e^{-\chi_N (t)}  & |\beta|^2 e^{- \Gamma_1 t}
+        \end{matrix}
+        \right),
+46
+    S_{\lambda}(\omega) &= \int_{-\infty}^{\infty} d\tau \; \langle \lambda(\tau) \lambda(0) \rangle e^{- i \omega \tau}.
+47
+48
+49
+50
+    \Gamma_{\phi} = \eta \frac{4 \chi^2}{\kappa} \bar{n}.
+51
+  S(\omega) = 4 \chi^2 \frac{2\eta\bar{n}\kappa}{\omega^2+\kappa^2},
+52
+53
+\Gamma_{1} = \frac{1}{\hbar^2} \left| \langle 0 | \frac{\partial \hat{H}_q}{\partial\lambda} | 1 \rangle \right|^2 S_{\lambda} (\freq),
+54
+    \varphi(t) = \int_0^t \omega_{q} dt' = \langle\omega_{\mathrm{q}}\rangle t + \delta\varphi(t)
+55
+    \delta\varphi(t) = \frac{\partial \freq}{\partial \lambda} \int_0^t \delta\lambda(t')\mathrm{d}t',
+56
+    \langle e^{i\,\delta\varphi(t)} \rangle = e^{-\frac{1}{2}\,\langle \delta\varphi^2(t) \rangle} \equiv e^{-\chi_N(t)},
+57
+\langle e^{- \chi_N(\tau)} \rangle = \exp\left[-\frac{\tau^2}{2} \frac{\partial \freq}{\partial\lambda} \int_{-\infty}^{\infty}g_N(\omega,\tau)S(\omega)d\omega\right],
+58
+59
+g_0(\omega,\tau) &= \text{sinc}^2 \frac{\omega \tau}{2} \\
+g_1(\omega,\tau) &= \sin^2 \frac{\omega \tau}{4} \text{sinc}^2 \frac{\omega \tau}{4}
+60
+ \X{\theta} = R_X(\theta) = e^{-i\frac{\theta}{2}\sigma_x} = \cos(\theta/2) \mathds{1}-i\sin(\theta/2) \sigma_x
+61
+U_\CNOT{} =
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+62
+U_\CPHASE{} =
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & -1 \\
+\end{bmatrix} = |0\rangle\langle  0| \otimes \mathds{1} + |1\rangle\langle 1| \otimes \Z{}
+63
+U_\CNOT{} = (\Id \otimes \H{})U_\CPHASE(\Id \otimes \H{}),
+64
+\CPHASE{}=\begin{minipage}{0.05\textwidth}
+\begin{flushleft}
+\mbox{\Qcircuit @C=0.5em @R=0.75em{
+ & \ctrl{1} &  \qw \\
+ & \ctrl{-1} & \qw \
+}}
+\end{flushleft}
+\end{minipage}
+65
+\CNOT{}=
+\begin{minipage}{0.05\textwidth}
+\begin{flushleft}
+\mbox{\Qcircuit @C=0.5em @R=0.75em{
+ & \qw &\ctrl{1} &  \qw  & \qw \\
+ & \gate{\H{}} &\ctrl{-1} & \gate{\H{}} & \qw \
+}}
+\end{flushleft}
+66
+    \vert \psi \rangle = \frac{1}{\sqrt{2}} \left(\vert 0 \rangle + \vert 1 \rangle\right)_A \vert 0 \rangle_B.
+67
+    U_{\CNOT} \vert \psi \rangle = \frac{1}{\sqrt{2}} \left(\vert 0 \rangle_A \vert 0 \rangle_B + \vert 1 \rangle_A \vert 1 \rangle_B \right) \neq ( \ldots)_A ( \ldots)_B,
+68
+\Qcircuit @C=1em @R=2em{
+ \lstick{|\psi_\text{in}\rangle} & \gate{U_0} & \gate{U_1} & \qw & \cdots & & \gate{U_n} & \rstick{|\psi_\text{out}\rangle} \qw\\
+}
+69
+|\psi_\text{out}\rangle = U_n \cdots U_1U_0 |\psi_\text{in}\rangle.
+70
+\mathcal G_0 = \{\X{\theta},\Y{\theta},\Z{\theta},\text{Ph}_\theta,\CNOT{}\}
+71
+\mathcal G_1 = \{\H, \S, \T, \CNOT{}\},
+72
+\H &= \text{Ph}_{\frac{\pi}{2}}\Y{\frac{\pi}{2}} \Z{\pi} = i\frac{1}{\sqrt{2}} \begin{bmatrix}
+1 & -1\\
+1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+-i & 0\\
+0 & i
+\end{bmatrix}=
+\frac{1}{\sqrt{2}}
+\begin{bmatrix}
+1 & 1\\
+1 & -1
+\end{bmatrix}
+73
+H = \frac{\tilde Q(t)^2}{2C_\Sigma}+\frac{\Phi^2}{2L}+\frac{C_\text{d}}{C_\Sigma}V_\text{d}(t)\tilde Q,
+74
+75
+ \hat Q = -iQ_\text{zpf}\left(a-a^\dagger \right)
+76
+77
+78
+|\psi_0(t)\rangle = U_{H_0}|\psi_0\rangle = \frac{1}{\sqrt{2}}\begin{pmatrix} e^{i\freq t/2} \\ e^{-i\freq t/2} \end{pmatrix},
+79
+i \partial_t |\psi_\rf(t)\rangle &= i(\partial_tU_\rf)|\psi_0\rangle + i U_\rf\left(\partial_t|\psi_0\rangle\right)\\
+ &= i\dot U_\rf U_\rf^\dagger|\psi_\rf\rangle + U_\rf H_0 |\psi_0\rangle \\
+80
+\widetilde H_\text{d} = \Omega V_\text{d}(t)\left(\cos(\omega_\text{q} t)\sigma_y - \sin(\omega_\text{q} t)\sigma_x\right).
+81
+v(t) & = s(t) \sin(\omega_\d t + \phi) \\
+82
+I &= \cos(\phi) \text{ (the `in-phase' component)}\\
+Q &= \sin(\phi) \text{ (the `out-of-phase' component)}
+83
+\widetilde H_\text{d} &= \Omega V_0 s(t)\left( I \sin(\omega_\d t) - Q \cos(\omega_\d t)\right)\quad \nonumber\\
+& \hphantom{=} \times \left(\cos(\freq t)\sigma_y - \sin(\freq t)\sigma_x\right)
+84
+\widetilde H_\text{d}  & = \frac{1}{2} \Omega V_0 s(t) \left[\vphantom{\frac{2}{2}} \left(-I\cos(\omegad t) + Q\sin(\omegad t)\right)\sigma_x \right. \nonumber \\
+& \hphantom{=} + \left. \left(I\sin(\omegad t) - Q\cos(\omegad t)\right)\sigma_y \vphantom{\frac{2}{2}}\right]
+85
+\widetilde H_\text{d} = -\frac{\Omega}{2}V_0s(t) \begin{pmatrix}
+0 & e^{i(\omegad t + \phi)}\\
+e^{-i(\omegad t + \phi)} & 0
+86
+\widetilde H_\text{d} = -\frac{\Omega}{2}V_0s(t)\left(I\sigma_x +Q\sigma_y \right),
+87
+88
+\Theta(t) = -\Omega V_0\int_0^{t} s(t')\d t'
+89
+90
+\X{\theta}^{(\phi_0)}\X{\theta} &= e^{-i\frac{\theta}{2}\left(\cos(\phi_0)\sigma_x + \sin(\phi_0) \sigma_y\right)}\X{\theta}\\
+& = \Z{-\phi_0}\X{\theta}\Z{\phi_0}\X{\theta}
+91
+\Qcircuit @C=0.5em @R=0.75em{
+\cdots & & & \gate{U_i} & \gate{\Z{\theta_0}} & \gate{U_{i+1}} & \gate{\Z{\theta_1}} & \gate{U_{i+2}}  & \qw & & \cdots}
+92
+\Qcircuit @C=0.5em @R=0.75em{
+\cdots & & &  \gate{U_i \vphantom{U^{(\theta_0)}_{i+1}}}  & \gate{U^{(\theta_0)}_{i+1}} & \gate{U^{(\theta_0+\theta_1)}_{i+2}}  & \qw & & \cdots}
+93
+94
+\renewcommand*{\arraystretch}{1.3}
+s(t)\rightarrow s'(t) =
+\left\{\begin{array}{ccl}
+s(t) & \text{ on } & I\\
+\displaystyle \lambda\frac{\dot s(t)}{\alpha} & \text{ on } & Q\\
+95
+s'_{\delta f}(t) = s'(t)e^{i2\pi\delta f t},
+96
+97
+98
+99
+H_\text{qq} = -g\left([\sigma^+ - \sigma^-]\otimes[\sigma^+ - \sigma^-]\right),
+100
+H_\text{qq} = g\left(e^{i\delta\omega_{12}t}\sigma^+\sigma^- + e^{-i\delta\omega_{12}t}\sigma^-\sigma^+\right),
+101
+102
+U_{qq}(t) = e^{-i\frac{g}{2}\left(\sigma_x\sigma_x + \sigma_y\sigma_y \right)t}=
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & \cos(gt) & -i\sin(gt) & 0\\
+0 & -i\sin(gt) & \cos(gt) & 0\\
+0 & 0 & 0 & 1 \\
+103
+U_{qq}\left(\frac{\pi}{2g}\right) = \begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & -i & 0\\
+0 & -i & 0 & 0\\
+0 & 0 & 0 & 1 \\
+\end{bmatrix} \equiv i\textsf{SWAP}.
+104
+U_{qq}\left(\frac{\pi}{4g}\right) = \begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & \sfrac{1}{\sqrt{2}} & -\sfrac{i}{\sqrt{2}} & 0\\
+0 & -\sfrac{i}{\sqrt{2}} & \sfrac{1}{\sqrt{2}} & 0\\
+0 & 0 & 0 & 1 \\
+\end{bmatrix} \equiv \sqrt{i\textsf{SWAP}},
+105
+\theta_z = \int_0^\tau \d t \left( \omega_\text{q} - \omega(t)\right).
+106
+\begin{tabular}{ccc}
+\Qcircuit @C=0.5em @R=2.2em{
+ & \ctrl{1} &  \qw \\
+ & \targ & \qw \
+} & \raisebox{-1.5em}{=} &
+\Qcircuit @C=0.5em @R=1.1em{
+ & \qw         &  \gate{\Z{\text{-}\frac{\pi}{2}}}     & \multigate{1}{\iSWAP{}} & \gate{\X{\frac{\pi}{2}}}& \multigate{1}{\iSWAP{}} & \qw & \qw & \qw\\
+ & \gate{\X{\frac{\pi}{2}}} & \gate{\Z{\frac{\pi}{2}}} & \ghost{\iSWAP{}} & \qw & \ghost{\iSWAP{}} & \qw & \gate{\Z{\frac{\pi}{2}}} & \qw \\
+}
+\end{tabular}
+107
+H_\text{Heisenberg} = J_x\sigma_x\sigma_x + J_y\sigma_y\sigma_y+J_z\sigma_z\sigma_z.
+108
+U_\CPHASE{} = \begin{bmatrix}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & -1\\
+\end{bmatrix}
+109
+H_\text{2 excitations} = \begin{bmatrix}
+E_{00} & 0 & 0 & 0 & 0 & 0 \\
+0 & E_{01} & g & 0 & 0 & 0 \\
+0 & g & E_{10} & 0 & 0 & 0 \\
+0 & 0 & 0 & E_{11} & \sqrt{2}g & \sqrt{2}g \\
+0 & 0 & 0 & \sqrt{2}g & E_{02} & 0 \\
+0 & 0 & 0 & \sqrt{2}g & 0 & E_{20} \\
+110
+U_\text{ad} = \begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & e^{i\theta_{01}(\ell)} & 0 & 0 \\
+0 & 0 & e^{i\theta_{10}(\ell)} & 0 \\
+0 & 0 & 0 & e^{i\theta_{11}(\ell)} \\
+111
+\theta_{ij}(\ell(\tau)) = \int_0^{\tau} \d t\, \omega_{ij}[\ell(t)]
+112
+\zeta = \left(\omega_{11} - (\omega_{01}+\omega_{10})\right).
+113
+\int_0^{\tau}  \zeta(t) dt= \pi  = \theta_{11}(\ell_\pi) - \left(\theta_{01}(\ell_\pi) + \theta_{10}(\ell_\pi)\right).
+114
+ U_\text{ad} &= \begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & e^{i\theta_{01}(\ell_\pi)} & 0 & 0 \\
+0 & 0 & e^{i\theta_{10}(\ell_\pi)} & 0 \\
+0 & 0 & 0 & e^{i(\pi + \theta_{01}(\ell_\pi) + \theta_{10}(\ell_\pi))} \\
+\end{bmatrix}.
+115
+U_\text{ad} = \begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & e^{i\pi} \\
+\end{bmatrix} =
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & -1 \\
+\end{bmatrix} =
+116
+\textsf{CZ}_\phi &= \begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & e^{-i\phi} \nonumber
+\\
+\end{bmatrix} \\
+117
+\Qcircuit @C=0.5em @R=0.75em{
+ \lstick{|0\rangle} & \gate{\H{}} & \ctrl{1} & \qw & \qw \\
+ \lstick{|0\rangle} & \qw         & \targ    & \qw & \qw \gategroup{1}{5}{2}{5}{1em}{\}}
+}
+\raisebox{-1em}{\,\, = \,\,$ |\Phi^+\rangle$}
+118
+\Qcircuit @C=0.75em @R=0.75em{
+ \lstick{|0\rangle}  & \gate{\Y{\pi/2}} & \qw                &\ctrl{1} & \qw                  & \qw & \qw \\
+ \lstick{|0\rangle}  & \qw               & \gate{\Y{-\pi/2}} &\ctrl{-1}    & \gate{\Y{\pi/2}} & \qw & \qw \gategroup{1}{3}{2}{5}{.7em}{--}
+}.
+119
+H_\text{Hubbard, two mode} = -t (b^\dagger_1b_2 + b_2^\dagger b_1) + U b^\dagger_1b^{\vphantom{\dagger}}_1 b^\dagger_2b^{\vphantom{\dagger}}_2
+120
+H & = \frac{t}{2}\left(\sigma_x \otimes \sigma_x+\sigma_y\otimes\sigma_y\right)
+ \\
+& + \frac{U}{4}\left(\sigma_z\otimes\sigma_z + \sigma_z\otimes \Id + \Id \otimes \sigma_z\right),
+121
+\begin{tabular}{ccc}
+\Qcircuit @C=0.5em @R=1.3em{
+  & \multigate{1}{U_\text{ZZ}(\phi)}  & \qw \\
+  & \ghost{U_\text{ZZ}(\phi)}   & \qw
+}
+& \raisebox{-1.5em}{=} &
+\Qcircuit @C=0.5em @R=1em{
+  &\gate{\X{\pi}} & \multigate{1}{\CZ{}_\phi}        & \gate{A_\pi} & \multigate{1}{\CZ{}_\phi} & \qw & \qw\\
+  & \qw         & \ghost{\CZ{}_\phi}    & \gate{A_\pi} & \ghost{{\CZ{}_\phi}}        & \gate{\X{\pi}} & \qw
+},
+122
+\begin{tabular}{ccc}
+\Qcircuit @C=0.5em @R=1.3em{
+  & \multigate{1}{U_\text{ZZ}(\phi)}  & \qw \\
+  & \ghost{U_\text{ZZ}(\phi)}   & \qw
+}
+& \raisebox{-1.5em}{=} &
+\Qcircuit @C=0.5em @R=1.25em{
+  &\ctrl{1} & \qw                  & \ctrl{1} & \qw \\
+  & \targ    & \gate{\Z{\phi/2}}    & \targ & \qw
+},
+123
+H_{\d,2} = \Omega V_{\d2}(t)\left(\Id\otimes\sigma_x + \nu_2^+\sigma_x\otimes\Id + \mu_2^{+}\sigma_x\otimes\sigma_z\right)
+124
+\nu_i^\pm &= \pm\frac{g}{\Delta_{12}}\frac{\mp \Delta_{12}}{(\alpha_i \mp \Delta_{12})}
+125
+126
+\renewcommand*{\arraystretch}{1.3}
+U_{\ZX{\theta}} &= e^{-\frac{i}{2}\theta \sigma_z\otimes\sigma_x} \nonumber \\
+&= \begin{bmatrix}
+\cos\frac{\theta}{2} & -i\sin\frac{\theta}{2} & 0 & 0\\
+-i\sin\frac{\theta}{2} & \cos\frac{\theta}{2} & 0 & 0 \\
+0 & 0 & \cos\frac{\theta}{2} & i\sin\frac{\theta}{2} \\
+0 & 0 & i\sin\frac{\theta}{2} & \cos\frac{\theta}{2}
+\end{bmatrix}
+127
+\begin{tabular}{ccc}
+\Qcircuit @C=0.5em @R=1.9em{
+ & \ctrl{1} &  \qw \\
+ & \targ & \qw \
+} & \raisebox{-1.5em}{=} &
+\Qcircuit @C=0.5em @R=0.8em{
+ &  \gate{\Z{\frac{\pi}{2}}} &  \gate{\ZX{-\frac{\pi}{2}} }& \qw\\
+ &  \gate{\X{\frac{\pi}{2}}} &  \ctrl{-1}    & \qw
+},
+\end{tabular}
+128
+129
+U_{\bSWAP{}}(\theta,\phi) = \begin{bmatrix}
+\cos \theta & 0 & 0 & -ie^{-i2\phi}\sin\theta\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+-ie^{-i2\phi}\sin\theta & 0 & 0 & \cos \theta\\
+130
+\Omega_B = \frac{-2g\Omega^2\left(-g \gamma \alpha_\Sigma+\gamma^2\alpha_2(\alpha_1+\Delta_{12}) + \alpha_1(\alpha_2-\Delta_{12})\right)}{(\alpha_1+\Delta_{12})(\alpha_2 -\Delta_{12})\Delta_{12}^2},
+131
+U_\textsf{MAP} = \exp\left[-i\frac{\pi}{4}\sigma_z\otimes \sigma_z\right],
+132
+U_\textsf{rRIP} = \exp\left[-i \dot \theta \sigma_z \otimes \sigma_z t\right],
+133
+\dot \theta \propto \underbrace{\left(\frac{|\Omega V_\d|}{2\Delta_\text{cd}}\right)^2}_{\bar n} \frac{\chi}{\Delta_\text{cd}},
+134
+H_{\mbox{\tiny{JC}}} = \omega_r \left( a^{\dagger}a + \frac{1}{2}\right) + \frac{\freq}{2}\sigma_z + g \left( \sigma_{+}a + \sigma_{-}a^{\dagger}\right),
+135
+H_{\text{disp}} = \bigg( \omega_r +\chi\sigma_z\bigg) \left( a^{\dagger}a + \frac{1}{2}\right) + \frac{\widetilde{\omega}_{\text{q}}}{2}\sigma_z,
+136
+\chi = \chi_{01} + \frac{\chi_{12}}{2} = -\frac{g_{01}^2}{\Delta}\left(\frac{1}{1 + \Delta/\alpha}\right),
+137
+H_{\text{disp}} = \omega_r \left( a^{\dagger}a + \frac{1}{2}\right) + \frac{1}{2}\bigg( \freq + \underbrace{\frac{g^2}{\Delta}}_{\text{Lamb shift}} + \underbrace{\frac{2g^2}{\Delta}a^{\dagger}a}_{\text{ac-Stark shift}}\bigg)\sigma_z,
+138
+139
+140
+141
+    A_{\mbox{\tiny{RO}}} e^{j \theta_{\mbox{\tiny{RO}}}} &=
+    A_{\mbox{\tiny{RO}}} \cos \theta_{\mbox{\tiny{RO}}} + j  A_{\mbox{\tiny{RO}}} \sin \theta_{\mbox{\tiny{RO}}} \\
+    &\equiv I + j Q
+142
+ I &= \frac{1}{T} \int_0^T dt \; s_I(t) y_I(t) \nonumber\\
+   &= \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{8} \cos (\theta_{\mbox{\tiny{RO}}}),  \\
+ Q &= \frac{1}{T} \int_0^T dt \; s_Q(t) y_Q(t) \nonumber \\
+   &= \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{8} \sin (\theta_{\mbox{\tiny{RO}}}),
+143
+  A_{\mbox{\tiny{RO}}} &\propto \sqrt{I^2 + Q^2}, \\
+  \theta_{\mbox{\tiny{RO}}} &= \arctan(Q/I).
+144
+s(t) = \sum_{i=1}^N A_{\mbox{\tiny{RO}}}^{(i)} \cos(\omega_{\mbox{\tiny{RO}}}^{(i)}t + \theta^{(i)}).
+145
+  I_{\mbox{\tiny{IF}}}(t) &= \frac{1}{T}\int_0^T (dt) \; s_I(t) y_I(t) \nonumber \\
+            &= \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{8} \cos (\omega_{\mbox{\tiny{IF}}}t + \theta_{\mbox{\tiny{RO}}}) \\
+  Q_{\mbox{\tiny{IF}}}(t) &= \frac{1}{T}\int_0^T (dt) \; s_Q(t) y_Q(t) \nonumber \\
+            &= \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{8} \sin (\omega_{\mbox{\tiny{IF}}}t + \theta_{\mbox{\tiny{RO}}}).
+146
+  I_{\mbox{\tiny{IF}}}[n] &= \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{8} \cos (\Omega_{\mbox{\tiny{IF}}}n + \theta_{\mbox{\tiny{RO}}}) \\
+  Q_{\mbox{\tiny{IF}}}[n] &= \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{8} \sin (\Omega_{\mbox{\tiny{IF}}}n + \theta_{\mbox{\tiny{RO}}}),
+147
+ I &= \frac{1}{M} \sum_{n_1}^{n_2} I_{\mbox{\tiny{IF}}}[n] \cos[\Omega_{\mbox{\tiny{IF}}} n]
+        = \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{16} \cos \theta_{\mbox{\tiny{RO}}}, \\
+ Q &= \frac{1}{M} \sum_{n_1}^{n_2} Q_{\mbox{\tiny{IF}}}[n] \sin[\Omega_{\mbox{\tiny{IF}}} n]
+        = \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{16} \sin \theta_{\mbox{\tiny{RO}}},
+148
+    z_{\mbox{\tiny{IF}}}[n] &= I_{\mbox{\tiny{IF}}}[n]  + j Q_{\mbox{\tiny{IF}}}[n] \equiv V_{I}[n] + j V_Q[n] \\
+         &= \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{8}
+            \left[ \cos (\Omega_{\mbox{\tiny{IF}}}n + \theta_{\mbox{\tiny{RO}}}) +  j \sin (\Omega_{\mbox{\tiny{IF}}}n + \theta_{\mbox{\tiny{RO}}}) \right] \\
+         &= \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{8} e^{j\theta_{\mbox{\tiny{RO}}}} e^{j\Omega_{\mbox{\tiny{IF}}}n}
+149
+150
+    \bar{z}[n] &= \frac{1}{M} \sum z[n]  \\
+         &= \frac{A_{\mbox{\tiny{RO}}}A_{\mbox{\tiny{LO}}}}{8} e^{j\theta_{\mbox{\tiny{RO}}}}.
+151
+\epsilon_{\mbox{\tiny{sep}}} = \frac{1}{\sqrt{2\pi(\Delta\theta)^2}} \int_{\theta = \frac{\theta_0 - \theta_1}{2}}^{\infty}\exp\left[{-\frac{(\theta - \theta_1)^2}{2(\Delta\theta)^2}}\right]d\theta
+152
+ = \frac{1}{2}\mbox{erfc}\left[ \frac{\left| \theta_0 - \theta_1\right|}{2\sqrt{2(\Delta\theta)^2}}\right],
+153
+\mbox{erfc}(x) = 1 - \frac{2}{\sqrt{\pi}}\int_{x}^{\infty}e^{-t^2}dt.
+154
+\epsilon_{\mbox{\tiny{sep}}} = \frac{1}{2}\mbox{erfc}\left[\frac{\mbox{SNR}}{2}\right]
+155
+F(\tau_{ro}) = 1-e^{-\tau_{ro}/T_1},
+156
+\gamma^{\text{Purcell}}_{\text{env}} = \frac{1}{T_1} = \frac{P}{\hbar \omega} = \frac{(\beta e \omega)^2 Z_0}{\hbar \omega} = \frac{g^2}{\omega}.
+157
+\gamma^{\text{Purcell}}_{\text{res-env}} = \frac{g^2}{\omega}\frac{\mbox{Re}[Z_r(\omega)]}{Z_0},
+158
+\mbox{Re}[Z_r(\omega)] = \frac{QZ_0}{1 + 2(\Delta/\kappa)^2}.
+159
+\gamma^{\text{Purcell}}_{\text{res-env}} = \frac{g^2}{\omega_{r}}\frac{\mbox{Re}[Z_r]}{Z_0} \underset{\Delta=0}{=} \frac{g^2}{\omega_{r}}Q = \frac{g^2}{\kappa}.
+160
+\gamma^{\text{Purcell}}_{\text{res-env}} = \frac{g^2}{\omega_{r}}\frac{\mbox{Re}[Z_r]}{Z_0} \underset{\Delta\gg g,\kappa}{=} \frac{g^2}{\omega_{r}}Q \left(\frac{\kappa}{\Delta}\right)^2 = \left(\frac{g}{\Delta}\right)^2\kappa.
+161
+\gamma^{\text{Purcell}}_{\text{res-filter-env}} = \kappa\bigg(\frac{g}{\Delta}\bigg)^2 \bigg( \frac{\freq}{\omega_r}\bigg)\bigg(\frac{\omega_r}{2Q_F\Delta}\bigg),
+162
+\eta_{\mbox{\tiny{SQL}}} = \frac{\hbar \omega_{\mbox{\tiny{RF}}}}{k_B T_{\mbox{\tiny{sys}}}}, \hspace{0.5cm} 0< \eta_{\mbox{\tiny{SQL}}} < 1,
+163
+T_{\text{sys}} = T_{N,1} + \frac{T_{N,2}}{G_1} + \frac{T_{N,3}}{G_1 G_2} + ...
+164
+[a_{\mbox{\tiny{in}}},a_{\mbox{\tiny{in}}}^{\dagger}] = [a_{\mbox{\tiny{out}}},a_{\mbox{\tiny{out}}}^{\dagger}] = 1,
+165
+a_{\mbox{\tiny{out}}} = \sqrt{G}a_{\mbox{\tiny{in}}}.
+166
+a_{\mbox{\tiny{out}}} = \underbrace{\sqrt{G}a_{\mbox{\tiny{in}}}}_{\mbox{\tiny{Amplification}}} + \underbrace{\sqrt{G - 1}b_{\mbox{\tiny{in}}}^{\dagger}}_{\mbox{\tiny{Added idler noise}}}.
+167
+a_{\mbox{\tiny{out}}} = \underbrace{\sqrt{G}a_{\mbox{\tiny{in}}}}_{\mbox{\tiny{Amplification}}} + \underbrace{e^{-i\phi}\sqrt{G - 1}a_{\mbox{\tiny{in}}}^{\dagger}}_{\mbox{\tiny{Phase-dep. noise}}}.
+168
+H = \omega_{r}c^{\dagger}c + K c^{\dagger}c^{\dagger}cc,
+169
+H = \omega_{r}c^{\dagger}c + K \left( pc^{\dagger}c^{\dagger} + p^{\dagger}cc\right),
+170
